@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<comps>
+    <Panel>
+        <VBox x="10" y="10">
+            <RadioButton label="one"/>
+            <RadioButton label="two"/>
+            <RadioButton label="three"/>
+        </VBox>
+    </Panel>
+</comps>
