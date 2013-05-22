@@ -42,7 +42,7 @@ public class ChangeStateCmd extends Command
 		var __newView:DisplayObject = viewModel.getView(evt.info) as DisplayObject;
 		center(__newView);
 		contextView.view.addChild(__newView);
-		logger.debug("Get a new view:{0}", [__newView]);
+		logger.debug("get view:{0}", [__newView]);
 	}
 	
 	private function center($view:DisplayObject):void
