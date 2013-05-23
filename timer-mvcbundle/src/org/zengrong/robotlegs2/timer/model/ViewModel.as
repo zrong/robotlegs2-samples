@@ -4,12 +4,15 @@ import flash.utils.Dictionary;
 import flash.utils.getDefinitionByName;
 import org.zengrong.robotlegs2.timer.view.ITimerView;
 import robotlegs.bender.extensions.viewManager.api.IViewHandler;
+import robotlegs.bender.framework.api.ILogger;
 /**
  * 保存所有的View
  * @author zrong
  */
 public class ViewModel 
 {
+	[Inject]
+	public var logger:ILogger;
 	
 	public function ViewModel() 
 	{
