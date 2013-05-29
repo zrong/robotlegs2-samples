@@ -17,7 +17,7 @@ import robotlegs.bender.framework.impl.Context;
  * 主文件
  * @author zrong
  */
-[SWF(width=200,height=300)]
+[SWF(width=200,height=200)]
 public class Robotlegs2TimerExample extends Sprite
 {
 	public function Robotlegs2TimerExample() 
