@@ -1,7 +1,6 @@
 package org.zengrong.robotlegs2 
 {
 
-import org.swiftsuspenders.Injector;
 import org.zengrong.robotlegs2.timer.cmd.ChangeStateCmd;
 import org.zengrong.robotlegs2.timer.cmd.TimerStartCmd;
 import org.zengrong.robotlegs2.timer.cmd.TimerStopCmd;
@@ -18,6 +17,7 @@ import org.zengrong.robotlegs2.timer.view.TimerSetView;
 import robotlegs.bender.extensions.eventCommandMap.api.IEventCommandMap;
 import robotlegs.bender.extensions.mediatorMap.api.IMediatorMap;
 import robotlegs.bender.framework.api.IConfig;
+import robotlegs.bender.framework.api.IInjector;
 import robotlegs.bender.framework.api.ILogger;
 
 /**
@@ -27,7 +27,7 @@ import robotlegs.bender.framework.api.ILogger;
 public class AppConfig implements IConfig 
 {
 	[Inject]
-	public var injector:Injector;
+	public var injector:IInjector;
 	
 	[Inject]
 	public var mediatorMap:IMediatorMap;
